@@ -1,0 +1,16 @@
+.layout-design {
+  grid-template-columns: 56px 1fr;
+}
+
+@media only screen and (min-width: 768px) {
+  .layout-design {
+    grid-template-columns: 256px 1fr;
+  }
+}
+
+@media only screen and (min-width: 697px) {
+  .social-and-activities-design {
+    flex-direction: column;
+    width: 100%;
+  }
+}
